@@ -19,3 +19,19 @@ body {
     width: 100%; 
     box-sizing: border-box; 
 }
+/* COMBINED AND CORRECTED body rule */
+body {
+    /* Sets the background for the entire page body to white */
+    background-color: #ffffff; 
+    margin: 0; 
+    padding: 0;
+    /* FIX: Set the default text color for all body content to BLACK */
+    color: #000000; 
+}
+
+/* Ensure headings are also explicitly black, though the body rule should cover them */
+h1, h2, h3 {
+    /* Since you want black headings, this rule is fine */
+    color: #000000; 
+    text-align: center;
+}
