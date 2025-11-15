@@ -1,20 +1,22 @@
 /* This is the content of styles.css */
+
+/* Sets a white background for the entire page */
 body {
-    background-color: #ffffff; /* White background */
+    background-color: #ffffff;
 }
 
-h1, h2, h3 { /* Corrected selector (removed extra comma) */
-    color: #000000; /* Black headings */
-    text-align: center;
-}
-/* Target the class you applied to the paragraph */
-.centered-text { <p class="centered-text">
-    /* This rule centers all the inline content (the text) 
-       horizontally within the paragraph's container. */
+/* Centers all level 1, 2, and 3 headings and sets their color to black */
+h1, h2, h3 {
+    color: #000000;
     text-align: center;
 }
 
-/* Optional: You could center the title, too, if you want */
-h1 {
+/* Targets any element with the class="centered-text" and centers the text inside it */
+.centered-text {
     text-align: center;
 }
+
+/* Optional: This rule is redundant because h1 is already covered in the h1, h2, h3 block above, but it is harmless. */
+/* h1 {
+    text-align: center;
+} */
