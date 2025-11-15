@@ -1,10 +1,8 @@
-remote_theme: pages-themes/cayman@v0.2.0
-plugins:
-title: [The History and Operation of Computers ]
-description: ["The purpose of this website is to serve as a first look into the world of Web Devalopement and for us to gain experience in that subject."  ]
-google_analytics: [Your Google Analytics tracking ID]
 <!DOCTYPE html>
+<html>
+<head>
+    <title>My GitHub Page</title>
+</head>
 <body>
     </body>
 </html>
-<p>kugflglahclefjHVFHLsdhvsYDVC
