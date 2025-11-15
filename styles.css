@@ -12,7 +12,7 @@ h1, h2, h3 {
 }
 
 /* Targets any element with the class="centered-text" and centers the text inside it */
-.centered-text {
+centered-text { 
     text-align: center;
 }
 
