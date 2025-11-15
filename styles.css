@@ -1,24 +1,41 @@
-/* Sets the default font and text color for the entire page body */
-body {
-    background-color: #ffffff; 
-    margin: 0; 
-    padding: 0;
+/* This is the content of styles.css */
 
+/* COMBINED AND CORRECTED body rule */
+body {
+    /* Sets the background for the entire page body to white */
+    background-color: #ffffff; 
+    margin: 0; /* Remove default browser margin for full edge-to-edge color */
+    padding: 0;
 }
 
-/* * NOTE: The .page-header section needs the text to be white 
- * due to its dark background, so its 'color: white' rule 
- * (which you already have) overrides the body color rule.
- */
-.page-header { 
+/* Centers all level 1, 2, and 3 headings and sets their color to white */
+h1, h2, h3 {
+    color: #000000; /* Corrected: Removed extra # */
+    text-align: center;
+}
+
+/* Targets any element with the class="centered-text" and centers the text inside it */
+.centered-text { /* CORRECTED: Added the necessary dot for class selector */
+    text-align: center;
+}
+
+/* Styles the custom element at the top of the page */
+.page-header { /* CORRECTED: Added the necessary dot for class selector */
     background-color: #008080; 
-    color: white; /* Keeps the text in the header white */
+    color: white; 
     padding: 20px; 
     height: 150px; 
     width: 100%; 
     box-sizing: border-box; 
 }
 
+/* Center the text within the newly colored header */
+.page-header h1 { /* CORRECTED: Added the necessary dot for class selector */
+    text-align: center;
+}
+.page-header p { /* CORRECTED: Added the necessary dot for class selector */
+    text-align: center;
+}
 /* Styles for the Key Computer Components section */
 
 /* Ensure the component groups are clearly separated */
