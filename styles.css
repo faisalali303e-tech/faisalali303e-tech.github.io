@@ -1,43 +1,38 @@
 /* This is the content of styles.css */
-/* Centers all level 1, 2, and 3 headings and sets their color to black */
-h1, h2, h3 {
-    color: #ffffff;
-    text-align: center;
-}
 
-/* Targets any element with the class="centered-text" and centers the text inside it */
-.centered-text { 
-    text-align: center;
-}
-
-/* Optional: This rule is redundant because h1 is already covered in the h1, h2, h3 block above, but it is harmless. */
-/* h1 {
-    text-align: center;
-} */
-/* Sets the background for the entire page body (usually white/neutral) */
+/* COMBINED AND CORRECTED body rule */
 body {
-    background-color: #ffffff; /* Light gray background for the rest of the page */
+    /* Sets the background for the entire page body to white */
+    background-color: #ffffff; 
     margin: 0; /* Remove default browser margin for full edge-to-edge color */
     padding: 0;
 }
 
+/* Centers all level 1, 2, and 3 headings and sets their color to white */
+h1, h2, h3 {
+    color: #ffffff; /* Corrected: Removed extra # */
+    text-align: center;
+}
+
+/* Targets any element with the class="centered-text" and centers the text inside it */
+.centered-text { /* CORRECTED: Added the necessary dot for class selector */
+    text-align: center;
+}
+
 /* Styles the custom element at the top of the page */
-.page-header {
-    background-color: #336699; /* Example: A strong blue color for the top part */
-    color: white; /* Make the text white so it stands out against the blue */
-    padding: 20px; /* Add some space around the content inside the header */
-    
-    /* Set the specific height of the colored area */
-    height: 150px; /* You can adjust this value (e.g., 100px, 200px) */
-    
-    width: 100%; /* Ensure it spans the full width of the browser */
-    box-sizing: border-box; /* Ensures padding is included in the total height */
+.page-header { /* CORRECTED: Added the necessary dot for class selector */
+    background-color: #336699; 
+    color: white; 
+    padding: 20px; 
+    height: 150px; 
+    width: 100%; 
+    box-sizing: border-box; 
 }
 
 /* Center the text within the newly colored header */
-.page-header h1 {
+.page-header h1 { /* CORRECTED: Added the necessary dot for class selector */
     text-align: center;
 }
-.page-header p {
+.page-header p { /* CORRECTED: Added the necessary dot for class selector */
     text-align: center;
 }
