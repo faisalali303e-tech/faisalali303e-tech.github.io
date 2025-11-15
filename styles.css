@@ -1,9 +1,9 @@
 /* This is the content of styles.css */
 body {
-    background-color: #fffff; /* Light gray background */
+    background-color: #ffffff; /* White background */
 }
 
-h1, h2, h3 {
-    color: #000000; /* Red headings */
+h1, h2, h3 { /* Corrected selector (removed extra comma) */
+    color: #000000; /* Black headings */
     text-align: center;
 }
