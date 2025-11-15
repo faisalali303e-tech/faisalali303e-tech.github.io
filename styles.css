@@ -20,3 +20,30 @@ centered-text {
 /* h1 {
     text-align: center;
 } */
+/* Sets the background for the entire page body (usually white/neutral) */
+body {
+    background-color: #ffffff; /* Light gray background for the rest of the page */
+    margin: 0; /* Remove default browser margin for full edge-to-edge color */
+    padding: 0;
+}
+
+/* Styles the custom element at the top of the page */
+.page-header {
+    background-color: #336699; /* Example: A strong blue color for the top part */
+    color: white; /* Make the text white so it stands out against the blue */
+    padding: 20px; /* Add some space around the content inside the header */
+    
+    /* Set the specific height of the colored area */
+    height: 150px; /* You can adjust this value (e.g., 100px, 200px) */
+    
+    width: 100%; /* Ensure it spans the full width of the browser */
+    box-sizing: border-box; /* Ensures padding is included in the total height */
+}
+
+/* Center the text within the newly colored header */
+.page-header h1 {
+    text-align: center;
+}
+.page-header p {
+    text-align: center;
+}
