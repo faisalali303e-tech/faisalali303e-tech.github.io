@@ -7,3 +7,14 @@ h1, h2, h3 { /* Corrected selector (removed extra comma) */
     color: #000000; /* Black headings */
     text-align: center;
 }
+/* Target the class you applied to the paragraph */
+.centered-text {
+    /* This rule centers all the inline content (the text) 
+       horizontally within the paragraph's container. */
+    text-align: center;
+}
+
+/* Optional: You could center the title, too, if you want */
+h1 {
+    text-align: center;
+}
