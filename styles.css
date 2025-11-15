@@ -18,3 +18,55 @@ body {
     width: 100%; 
     box-sizing: border-box; 
 }
+
+/* Styles for the Key Computer Components section */
+
+/* Ensure the component groups are clearly separated */
+#components .component-group {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #eee;
+    background-color: #f9f9f9;
+}
+
+/* TABLE STYLES */
+
+table {
+    /* Make table fill the width of its container */
+    width: 100%;
+    /* Collapse borders for a single line look */
+    border-collapse: collapse; 
+    margin-top: 15px;
+    font-size: 0.95em;
+}
+
+/* Style the table header row */
+thead {
+    background-color: #000000; /* Black background (matching your heading color) */
+    color: #ffffff; /* White text for contrast */
+    text-align: left;
+}
+
+/* Style the table header cells */
+th {
+    padding: 12px 10px;
+    border: 1px solid #ccc;
+}
+
+/* Style the table data cells (content) */
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    /* Vertically align text to the top for better readability */
+    vertical-align: top; 
+}
+
+/* Add a subtle zebra-striping effect for better scanning */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Highlight the table rows when the user hovers over them */
+tbody tr:hover {
+    background-color: #e0e0e0;
+}
