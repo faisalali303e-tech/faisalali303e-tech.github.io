@@ -3,26 +3,35 @@
 /* COMBINED AND CORRECTED body rule */
 body {
     /* Sets the background for the entire page body to white */
-    background-color: #000000; 
-    margin: 0; /* Remove default browser margin for full edge-to-edge color */
+    background-color: #ffffff; 
+    margin: 0; 
     padding: 0;
 }
 
-/* Centers all level 1, 2, and 3 headings and sets their color to white */
+/* FIX: Set the color for all <section> elements to black */
+section {
+    color: #000000;
+    /* Optional: Add a max-width and padding to make the content readable */
+    max-width: 960px;
+    margin: 0 auto; 
+    padding: 20px;
+}
+
+/* Ensure headings are black and centered */
 h1, h2, h3 {
-    color: #000000; /* Corrected: Removed extra # */
+    color: #000000; 
     text-align: center;
 }
 
 /* Targets any element with the class="centered-text" and centers the text inside it */
-.centered-text { /* CORRECTED: Added the necessary dot for class selector */
+.centered-text { 
     text-align: center;
 }
 
 /* Styles the custom element at the top of the page */
-.page-header { /* CORRECTED: Added the necessary dot for class selector */
+.page-header { 
     background-color: #008080; 
-    color: white; 
+    color: white; /* Keeps the text in the header white */
     padding: 20px; 
     height: 150px; 
     width: 100%; 
@@ -30,14 +39,12 @@ h1, h2, h3 {
 }
 
 /* Center the text within the newly colored header */
-.page-header h1 { /* CORRECTED: Added the necessary dot for class selector */
+.page-header h1,
+.page-header p { 
     text-align: center;
 }
-.page-header p { /* CORRECTED: Added the necessary dot for class selector */
-    text-align: center;
-}
-/* Styles for the Key Computer Components section */
 
+/* Styles for the Key Computer Components section */
 /* Ensure the component groups are clearly separated */
 #components .component-group {
     margin-bottom: 20px;
@@ -46,44 +53,47 @@ h1, h2, h3 {
     background-color: #f9f9f9;
 }
 
-/* TABLE STYLES */
-
+/* PROFESSIONAL TABLE STYLES */
 table {
-    /* Make table fill the width of its container */
     width: 100%;
-    /* Collapse borders for a single line look */
     border-collapse: collapse; 
     margin-top: 15px;
-    font-size: 0.95em;
+    font-family: Arial, sans-serif; 
+    font-size: 0.9em; 
 }
 
-/* Style the table header row */
+/* Style the table header (thead) */
 thead {
-    background-color: #000000; /* Black background (matching your heading color) */
-    color: #ffffff; /* White text for contrast */
-    text-align: left;
+    background-color: #333333; 
+    color: #ffffff; 
 }
 
-/* Style the table header cells */
+/* Style header cells (th) */
 th {
-    padding: 12px 10px;
-    border: 1px solid #ccc;
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #333333; 
 }
 
-/* Style the table data cells (content) */
+/* Style data cells (td) */
 td {
-    padding: 10px;
-    border: 1px solid #ccc;
-    /* Vertically align text to the top for better readability */
+    padding: 10px 15px;
+    border: 1px solid #dddddd; 
     vertical-align: top; 
 }
 
-/* Add a subtle zebra-striping effect for better scanning */
+/* Zebra Striping: Apply background color to every other row for readability */
 tbody tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: #f7f7f7;
 }
 
-/* Highlight the table rows when the user hovers over them */
+/* Hover effect: Subtle change when the mouse is over a row */
 tbody tr:hover {
-    background-color: #e0e0e0;
+    background-color: #e9e9e9;
+}
+
+/* Ensure the bold component names in the first column stand out */
+td:first-child {
+    font-weight: bold;
+    color: #1a53ff; 
 }
