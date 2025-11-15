@@ -3,7 +3,7 @@
 /* COMBINED AND CORRECTED body rule */
 body {
     /* Sets the background for the entire page body to white */
-    background-color: #ffffff; 
+    background-color: #000000; 
     margin: 0; /* Remove default browser margin for full edge-to-edge color */
     padding: 0;
 }
