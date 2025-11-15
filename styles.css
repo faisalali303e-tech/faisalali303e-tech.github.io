@@ -1,89 +1,21 @@
-/* This is the content of styles.css */
-
-/* COMBINED AND CORRECTED body rule */
+/* Sets the default font and text color for the entire page body */
 body {
-    /* Sets the background for the entire page body to white */
     background-color: #ffffff; 
-    margin: 0; /* Remove default browser margin for full edge-to-edge color */
+    margin: 0; 
     padding: 0;
+    /* ADD THIS LINE to ensure all text in the main document is black */
+    color: #000000; 
 }
 
-/* Centers all level 1, 2, and 3 headings and sets their color to white */
-h1, h2, h3 {
-    color: #000000; /* Corrected: Removed extra # */
-    text-align: center;
-}
-
-/* Targets any element with the class="centered-text" and centers the text inside it */
-.centered-text { /* CORRECTED: Added the necessary dot for class selector */
-    text-align: center;
-}
-
-/* Styles the custom element at the top of the page */
-.page-header { /* CORRECTED: Added the necessary dot for class selector */
+/* * NOTE: The .page-header section needs the text to be white 
+ * due to its dark background, so its 'color: white' rule 
+ * (which you already have) overrides the body color rule.
+ */
+.page-header { 
     background-color: #008080; 
-    color: white; 
+    color: white; /* Keeps the text in the header white */
     padding: 20px; 
     height: 150px; 
     width: 100%; 
     box-sizing: border-box; 
-}
-
-/* Center the text within the newly colored header */
-.page-header h1 { /* CORRECTED: Added the necessary dot for class selector */
-    text-align: center;
-}
-.page-header p { /* CORRECTED: Added the necessary dot for class selector */
-    text-align: center;
-}
-/* Styles for the Key Computer Components section */
-
-/* Ensure the component groups are clearly separated */
-#components .component-group {
-    margin-bottom: 20px;
-    padding: 15px;
-    border: 1px solid #eee;
-    background-color: #f9f9f9;
-}
-
-/* TABLE STYLES */
-
-table {
-    /* Make table fill the width of its container */
-    width: 100%;
-    /* Collapse borders for a single line look */
-    border-collapse: collapse; 
-    margin-top: 15px;
-    font-size: 0.95em;
-}
-
-/* Style the table header row */
-thead {
-    background-color: #000000; /* Black background (matching your heading color) */
-    color: #ffffff; /* White text for contrast */
-    text-align: left;
-}
-
-/* Style the table header cells */
-th {
-    padding: 12px 10px;
-    border: 1px solid #ccc;
-}
-
-/* Style the table data cells (content) */
-td {
-    padding: 10px;
-    border: 1px solid #ccc;
-    /* Vertically align text to the top for better readability */
-    vertical-align: top; 
-}
-
-/* Add a subtle zebra-striping effect for better scanning */
-tbody tr:nth-child(even) {
-    background-color: #f2f2f2;
-}
-
-/* Highlight the table rows when the user hovers over them */
-tbody tr:hover {
-    background-color: #e0e0e0;
 }
