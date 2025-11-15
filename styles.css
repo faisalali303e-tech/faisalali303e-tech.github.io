@@ -1,10 +1,4 @@
 /* This is the content of styles.css */
-
-/* Sets a white background for the entire page */
-body {
-    background-color: #ffffff;
-}
-
 /* Centers all level 1, 2, and 3 headings and sets their color to black */
 h1, h2, h3 {
     color: #ffffff;
