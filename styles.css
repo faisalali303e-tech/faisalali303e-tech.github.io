@@ -21,7 +21,7 @@ h1, h2, h3 {
 
 /* Styles the custom element at the top of the page */
 .page-header { /* CORRECTED: Added the necessary dot for class selector */
-    background-color: #336699; 
+    background-color: #159957; 
     color: white; 
     padding: 20px; 
     height: 150px; 
