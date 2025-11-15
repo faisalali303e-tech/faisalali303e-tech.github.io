@@ -10,7 +10,7 @@ body {
 
 /* Centers all level 1, 2, and 3 headings and sets their color to white */
 h1, h2, h3 {
-    color: #ffffff; /* Corrected: Removed extra # */
+    color: #000000; /* Corrected: Removed extra # */
     text-align: center;
 }
 
