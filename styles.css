@@ -8,7 +8,7 @@ h1, h2, h3 { /* Corrected selector (removed extra comma) */
     text-align: center;
 }
 /* Target the class you applied to the paragraph */
-.centered-text {
+.centered-text { <p class="centered-text">
     /* This rule centers all the inline content (the text) 
        horizontally within the paragraph's container. */
     text-align: center;
