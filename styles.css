@@ -2,12 +2,12 @@
 
 /* Sets a white background for the entire page */
 body {
-    background-color: ##FFFFFF;
+    background-color: ##ffffff;
 }
 
 /* Centers all level 1, 2, and 3 headings and sets their color to black */
 h1, h2, h3 {
-    color: ##FFFFFF;
+    color: ##ffffff;
     text-align: center;
 }
 
