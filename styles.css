@@ -12,7 +12,7 @@ h1, h2, h3 {
 }
 
 /* Targets any element with the class="centered-text" and centers the text inside it */
-centered-text { 
+.centered-text { 
     text-align: center;
 }
 
@@ -28,7 +28,7 @@ body {
 }
 
 /* Styles the custom element at the top of the page */
-page-header {
+.page-header {
     background-color: #336699; /* Example: A strong blue color for the top part */
     color: white; /* Make the text white so it stands out against the blue */
     padding: 20px; /* Add some space around the content inside the header */
@@ -41,9 +41,9 @@ page-header {
 }
 
 /* Center the text within the newly colored header */
-page-header h1 {
+.page-header h1 {
     text-align: center;
 }
-page-header p {
+.page-header p {
     text-align: center;
 }
