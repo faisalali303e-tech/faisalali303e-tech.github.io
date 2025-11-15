@@ -3,8 +3,7 @@ body {
     background-color: #ffffff; 
     margin: 0; 
     padding: 0;
-    /* ADD THIS LINE to ensure all text in the main document is black */
-    color: #000000; 
+
 }
 
 /* * NOTE: The .page-header section needs the text to be white 
