@@ -19,11 +19,3 @@ body {
     width: 100%; 
     box-sizing: border-box; 
 }
-/* COMBINED AND CORRECTED body rule */
-body {
-    /* Sets the background for the entire page body to white */
-    background-color: #ffffff; 
-    margin: 0; 
-    padding: 0;
-    /* Removed the color property to prevent it from affecting the whole page */
-}
